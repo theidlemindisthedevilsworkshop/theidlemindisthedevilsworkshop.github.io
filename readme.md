@@ -1,4 +1,3 @@
-```md
 # The Idle Mind Is the Devil’s Workshop
 
 A deadpan, single-purpose website that turns procrastination into ritual.
@@ -109,6 +108,9 @@ python3 -m http.server 8080
 
 ---
 
-If you want to add new pages, keep the tone:
+## If you want to add new pages, keep the tone:
 
-Institutional. Precise. Deadpan. Allergic to motivation-speak.
+* Institutional.
+* Precise.
+* Deadpan.
+* Allergic to motivation-speak.
