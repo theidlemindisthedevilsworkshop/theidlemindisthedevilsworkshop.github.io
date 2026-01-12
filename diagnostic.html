@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Diagnostic • The Idle Mind Is the Devil's Workshop</title>
+  <meta name="description" content="A spiritually inadmissible diagnostic for your style of delay."/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"/>
+  <link rel="stylesheet" href="assets/style.css"/>
+  <meta name="theme-color" content="#070708">
+</head>
+<body data-page="diagnostic">
+<header>
+  <div class="nav">
+    <div class="brand">
+      <strong><a href="index.html" style="border-bottom:none;">The Idle Mind Is the Devil’s Workshop</a></strong>
+      <small>Archetypes for the almost-started.</small>
+    </div>
+    <div style="display:flex; gap:14px; align-items:center; flex-wrap:wrap; justify-content:flex-end;">
+      <nav class="links">
+<a href="workshop.html">Workshop</a>
+        <a href="confessional.html">Confessional</a>
+        <a href="timesheet.html">Timesheet</a>
+        <a href="lottery.html">Lottery</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="sound">
+        <button id="soundToggle" type="button">Sound: OFF</button>
+      </div>
+    </div>
+  </div>
+</header>
+<div id="marginalia" aria-hidden="true">
+  <div class="note">
+    <div id="marginaliaLabel" class="label">Marginalia</div>
+    <div id="marginaliaText" class="text"></div>
+  </div>
+</div>
+<div id="cursorDot"></div>
+<main>
+  <div class="kicker">IdleMind Diagnostic</div>
+  <h1>What kind of loafter are you?</h1>
+
+  <div class="card">
+    <p>Answer honestly. “Honestly” means: the thing you do when nobody is impressed.</p>
+
+    <form id="diagForm" style="margin-top:14px;">
+      <div class="card">
+        <h3>1) When you open a blank document, you mostly feel:</h3>
+        <label><input type="radio" name="q1" value="1"/> Relief. A new beginning.</label><br/>
+        <label><input type="radio" name="q1" value="2"/> Pressure. It must be good.</label><br/>
+        <label><input type="radio" name="q1" value="3"/> Dread. It might expose me.</label><br/>
+        <label><input type="radio" name="q1" value="4"/> Curiosity. I open twenty tabs.</label>
+      </div>
+
+      <div class="card">
+        <h3>2) Your favorite form of “work” is:</h3>
+        <label><input type="radio" name="q2" value="1"/> Starting something small.</label><br/>
+        <label><input type="radio" name="q2" value="2"/> Planning the system.</label><br/>
+        <label><input type="radio" name="q2" value="3"/> Explaining the system.</label><br/>
+        <label><input type="radio" name="q2" value="4"/> Learning about the system forever.</label>
+      </div>
+
+      <div class="card">
+        <h3>3) The lie you tell yourself most often is:</h3>
+        <label><input type="radio" name="q3" value="1"/> “I’m resting.”</label><br/>
+        <label><input type="radio" name="q3" value="2"/> “I’m aligning.”</label><br/>
+        <label><input type="radio" name="q3" value="3"/> “I’m waiting for the right moment.”</label><br/>
+        <label><input type="radio" name="q3" value="4"/> “I just need one more input.”</label>
+      </div>
+
+      <div class="card">
+        <h3>4) If you had to ship something in 10 minutes, you would:</h3>
+        <label><input type="radio" name="q4" value="1"/> Ship a rough draft.</label><br/>
+        <label><input type="radio" name="q4" value="2"/> Ship a clean outline.</label><br/>
+        <label><input type="radio" name="q4" value="3"/> Ship an apology.</label><br/>
+        <label><input type="radio" name="q4" value="4"/> Ship a link to someone else’s work.</label>
+      </div>
+
+      <button type="submit">Diagnose me</button>
+    </form>
+  </div>
+
+  <div id="diagOut"></div>
+
+  <div class="footer">
+    <div><a href="index.html">Return to home</a></div>
+  </div>
+</main>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
